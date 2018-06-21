@@ -1,0 +1,379 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Workshop | Arduino</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="Javascript/jquery.onepage-scroll.js"></script>
+  <script type="text/javascript" src="Javascript/navigation.js"></script>  
+  <link rel="stylesheet" type="text/css" href="Styles/desktop.css" />
+  <link rel="stylesheet" type="text/css" href="Styles/layout_workshops.css" />  
+  <link href='Styles/onepage-scroll.css' rel='stylesheet' type='text/css'>
+  <link href='Styles/Navigation.css' rel='stylesheet' type='text/css'>  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">         
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+		
+	</script>
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" >Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Topic: Exertion Games 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Assignments</a>
+      <a href="#">Research</a>
+      <a href="#">Reflect</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Topic: AR & VR 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Assignments</a>
+      <a href="#">Research</a>
+      <a href="#">Reflect</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Topic: Wearables 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Assignments</a>
+      <a href="#">Research</a>
+      <a href="#">Reflect</a>
+    </div>
+  </div>       
+  <div class="dropdown">
+    <button class="dropbtn">Topic: Artificial Creatures 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Assignments</a>
+      <a href="#">Research</a>
+      <a href="#">Reflect</a>
+    </div>
+  </div>
+  <a href="Workshop_processing.html" >Workshop: Computer Vision</a>
+  <a href="#" >Workshop: Unity/ Projection mapping</a>
+  <a href="Workshop_arduino.html" >Workshop: Arduino</a>
+  <div class="dropdown">
+    <button class="dropbtn">Excursion 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Assignments</a>
+      <a href="#">Reflect</a>
+    </div>
+  </div>       
+  <div class="dropdown">
+    <button class="dropbtn">Lab weeks 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Lab_weeks_process.html">Process</a>
+      <a href="#">Product</a>
+      <a href="#">Reflect</a>
+    </div>
+  </div>     
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+  <div class="wrapper">
+	  <div class="main">
+	    
+      <section class="page1 pages">
+        <div class="page_container1">
+          <div class="mainCover">
+            <img src="Images/Arduino_Logo.svg" alt="Arduino">
+          </div>
+          <h1 class="mainTitle">Workshop: Arduino</h1>
+          <div class="mainDescription">  
+            <p>I had to some programming for the arduino workshop. On this page you'll find the codes for the assignments I had to put on the website. You will also find videos demonstrating how the codes work. Furthermore, you'll get a description of what the assignment was about and how the assignment was accomplished.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="page2 pages">
+        <div class="page_container">
+          <h1 class="title">Assignment 3C</h1>
+          <div class="workshopCode">
+            <p data-height="265" data-theme-id="dark" data-slug-hash="Keopge" data-default-tab="js" data-user="Serghi0" data-embed-version="2" data-pen-title="Arduino 3C" class="codepen">See the Pen <a href="https://codepen.io/Serghi0/pen/Keopge/">Arduino 3C</a> by Sergh (<a href="https://codepen.io/Serghi0">@Serghi0</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+          </div>
+        <div class="workshopVideo">
+        <video controls>
+             <source src="Images/IMG_6833.MOV"  type="video/mp4">
+             Your browser does not support the video tag.
+          </video>        
+        </div>
+        <div class="workshopDescription">
+          <p>
+            For this assignment I had to make sure that the green light blinks twice as fast as the yellow light. First of I had to build the circuit the way it is done in the handout with two LEDs, two resistors (both are 220 &#8486) and four jump wires. The LED’s are connected to the pins 13 and 12. I adjusted the code so that two LED’s could be used instead of just one. I adjusted the code so that the green light would blink twice as fast. To do this I put a delay on the yellow light while there was no delay on the green light. You should be able to see this in the code included on the site. You will also find a video of the live demo included on the site.
+          </p>
+        </div>
+      </div>
+      </section>
+      
+      <section class="page3 pages">
+        <div class="page_container">
+          <h1 class="title">Assignment 4C</h1>
+          <div class="workshopCode">
+            <p data-height="300" data-theme-id="dark" data-slug-hash="PaRoJX" data-default-tab="js" data-user="Serghi0" data-embed-version="2" data-pen-title="Arduino 4C" class="codepen">See the Pen <a href="https://codepen.io/Serghi0/pen/PaRoJX/">Arduino 4C</a> by Sergh (<a href="https://codepen.io/Serghi0">@Serghi0</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+          </div>
+        <div class="workshopVideo">
+        <video controls>
+             <source src="Images/IMG_6606.MOV"  type="video/mp4">
+             Your browser does not support the video tag.
+          </video>        
+        </div>
+        <div class="workshopDescription">
+          <p>
+            This assignment is an extension of the last assignment. Instead of only turning the LEDs on and off, this circuit is able to set the brightness of a LED from 0 (completely off) to 255 (completely on) or anywhere in between. To accomplish this, the analogWrite() function was needed. Not all pins are suitable for this. It must be pins that are suitable for Pulse Width Modulation (PWM). These pins can behave as if it is partially on, meaning it can make the LED look like it is dimmed. That is why the pins 9 and 10 have been chosen.
+          </p>
+
+          <p>
+            For this assignment the code that was given had been extended so that one LED fades in and the other LED fades out at the same time. This extension can be seen in the code linked above. Furthermore, there is a video of a live demo linked above.
+          </p>
+
+        </div>
+      </div>
+      </section>
+
+      <section class="page4 pages">
+         <div class="page_container">
+          <h1 class="title">Assignment 6C</h1>
+          <div class="workshopCode">
+            <p data-height="300" data-theme-id="dark" data-slug-hash="LrdYWz" data-default-tab="js" data-user="Serghi0" data-embed-version="2" data-pen-title="Arduino 6C" class="codepen">See the Pen <a href="https://codepen.io/Serghi0/pen/LrdYWz/">Arduino 6C</a> by Sergh (<a href="https://codepen.io/Serghi0">@Serghi0</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+          </div>
+        <div class="workshopVideo">
+        <video controls>
+             <source src="Images/IMG_6612.MOV"  type="video/mp4">
+             Your browser does not support the video tag.
+          </video>        
+        </div>
+        <div class="workshopDescription">
+          <p>
+            For this assignment I had to use the input of a potentiometer to fade LEDs. The point was to use an analog input to control an analog output. In an earlier assignment it was shown that the Arduino read a value between 0 and 1023 from a potentiometer while a LED needs a value between 0 and 255. This means that the code needs to be adjusted so that the sensor value gets scaled to the 0-255 value. The map() function was used to accomplish this. This function had five parameters. The first one is the value you want to map, the second one is the lower bound of the value’s current range, the third one is the upper bound of the value’s current range, the fourth one is the lower bound of the value’s target range and the firth one is the upper bound of the value’s target range. 
+          </p>
+          <p>
+            For this assignment one LED had to fade in while the other had to fade out and vice versa. The code from assignment 4C was adjusted to accomplish this. This can be seen in the code provided above.
+          </p>
+          <p>
+            The circuit was built like the handout indicated. The centre lug of the potentiometer was connected to pin A0 of the Arduino. The LEDs are connected to pin 8 and 9 of the Arduino. 
+          </p>
+        </div>
+      </div>
+      </section>
+      
+      <section class="page5 pages">
+        <div class="page_container">
+          <h1 class="title">Assignment 7</h1>
+          <div class="workshopCode">
+            <p data-height="300" data-theme-id="dark" data-slug-hash="PaRoGy" data-default-tab="js" data-user="Serghi0" data-embed-version="2" data-pen-title="Assignment 7" class="codepen">See the Pen <a href="https://codepen.io/Serghi0/pen/PaRoGy/">Assignment 7</a> by Sergh (<a href="https://codepen.io/Serghi0">@Serghi0</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>            
+          </div>
+        <div class="workshopVideo">
+        <video controls>
+             <source src="Images/IMG_6616.MOV"  type="video/mp4">
+             Your browser does not support the video tag.
+          </video>        
+        </div>
+        <div class="workshopDescription">
+          <p>
+            For this assignment the objective was to dim the lights using a Light Dependent Resistor. This is a sensitive sensor that measures the amount of light. Apparently, this is similar to the sensor used to turn street lights on when it gets dark outside. 
+          </p>
+          <p>
+            One leg of the LDR was connected to the 5V pin of the Arduino while the other leg was connected to the A0 pin of the Arduino. The leg that is connected to the A0 pin is also connected to a 10k&#8486 resistor which is connected to the GND pin of the Arduino. The LED pins are connected to the Arduino at the pins 10 and 9 respectively.  These LEDs were connected to 220&#8486 resistors.
+          </p>
+          <p>
+            The map() function was used the same way as it was used in the previous assignment to covert the values received from the sensor to the values needed for the LEDs. The contrain() function was used to make sure the value was never lower than 0. 
+          </p>
+        </div>
+      </div>
+      </section>
+      
+      <section class="page6 pages">
+        <div class="page_container">
+          <h1 class="title">Assignment 8B</h1>
+          <div class="workshopCode">
+            <p data-height="300" data-theme-id="dark" data-slug-hash="BVraoq" data-default-tab="js" data-user="Serghi0" data-embed-version="2" data-pen-title="Arduino 8B" class="codepen">See the Pen <a href="https://codepen.io/Serghi0/pen/BVraoq/">Arduino 8B</a> by Sergh (<a href="https://codepen.io/Serghi0">@Serghi0</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>            
+          </div>
+        <div class="workshopVideo">
+        <video controls>
+             <source src="Images/IMG_6617.MOV"  type="video/mp4">
+             Your browser does not support the video tag.
+          </video>        
+        </div>
+        <div class="workshopDescription">
+          <p>
+            For this assignment the objective was to create a connection between the Arduino and processing. The Arduino board is used as an input device for the computer.             
+          </p>
+          <p>
+            The Arduino code that was used for this assignment was given beforehand and had not been adjusted. The processing code that was used for this assignment was also given beforehand but had been adjusted. Instead of just seeing one circle, you will be able to see more figures.
+          </p>
+          <p>
+            The Arduino circuit used for this assignment was the same as assignment 7.  One leg of the LDR was connected to the 5V pin of the Arduino while the other leg was connected to the A0 pin of the Arduino. The leg that is connected to the A0 pin is also connected to a 10kohm resistor which is connected to the GND pin of the Arduino. The LED pins are connected to the Arduino at the pins 10 and 9 respectively.  These LEDs were connected to 220 ohm resistors.
+          </p>
+          <p>
+            For this assignment everytime the LDR detected that there was less light, the figures would grow bigger. This is show in the video demo above.
+          </p>          
+        </div>
+      </div>
+      </section>
+
+      <section class="page7 pages">
+        <div class="page_container">
+          <h1 class="title">Assignment 9F</h1>
+          <div class="workshopCode">
+            <p data-height="300" data-theme-id="dark" data-slug-hash="jKzONR" data-default-tab="js" data-user="Serghi0" data-embed-version="2" data-pen-title="Arduino 9F" class="codepen">See the Pen <a href="https://codepen.io/Serghi0/pen/jKzONR/">Arduino 9F</a> by Sergh (<a href="https://codepen.io/Serghi0">@Serghi0</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+          </div>
+        <div class="workshopVideo">
+        <video controls>
+             <source src="Images/IMG_6781.MOV"  type="video/mp4">
+             Your browser does not support the video tag.
+          </video>        
+        </div>
+        <div class="workshopDescription">
+          <p>
+            For this assignment I had to make use of two buttons and a LED. For this assignment the LED had to light up when one button of the two had been pressed, but not both. To accomplish this I used the function digitalWrite(). This function uses two parameters, the first one gives the pin number and the second one needs the value. In this assignment the first parameter is the LED pin.The second parameter is digitalRead(buttonPinL) != digitalRead(buttonPinR). This means that when the value of the first one button is read, the value of the second one isn’t applicable. 
+          </p>
+          <p>
+            The circuit was built as is shown in the handout. The LED is coupled to the Arduino at pin number 8 via a jump wire. The buttons are coupled to pin number 2 and 3 of the Arduino respectively via jump wires. There are two different types of resistors used in the circuit. The resistor closest to the LED is 220&#8486 and the resistor closest to the button is 10k&#8486. The breadboard was connected to the 5V pin and the GND pin of the Arduino and the buttons were connected to the 5V pin via the breadboard. 
+          </p>
+        </div>
+      </div>
+      </section>
+      
+      <section class="page8 pages">
+        <div class="page_container">
+          <h1 class="title">Assignment 10B</h1>
+          <div class="workshopCode">
+            <p data-height="300" data-theme-id="dark" data-slug-hash="eKMOwY" data-default-tab="js" data-user="Serghi0" data-embed-version="2" data-pen-title="Arduino 10B" class="codepen">See the Pen <a href="https://codepen.io/Serghi0/pen/eKMOwY/">Arduino 10B</a> by Sergh (<a href="https://codepen.io/Serghi0">@Serghi0</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+          </div>
+        <div class="workshopVideo">
+        <video controls>
+             <source src="Images/IMG_6782.MOV"  type="video/mp4">
+             Your browser does not support the video tag.
+          </video>        
+        </div>
+        <div class="workshopDescription">
+          <p>
+            For this assignment I had to make use of a servomotor. Servomotors are motors that turn to a precise position. They are applicable for many purposes, such as to turn the wheel of a remote controlled car or the helm of a remote controlled boat. A servomotor does have its faults though. Most servomotors can not rotate completely. Usually they have a reach of ±180 degrees.
+          </p> 
+          <p>
+            The circuit was built the way it was shown in the handout. The breadboard was connected to the 5V pin and the GND pin of the arduino.  The servo was connected to the pin number 9 of the Arduino and the 5V pin and the GND pin via the breadboard.
+          </p> 
+          <p>
+            In this assignment I had to make the servomotor move in interesting ways that aren’t generic like the code that was given beforehand. The adjustment to the code is shown above with a video of the live demo shown.
+          </p>
+        </div>
+      </div>
+      </section>
+      
+      <section class="page9 pages">
+        <div class="page_container">
+          <h1 class="title">Assignment 11B</h1>
+          <div class="workshopCode">
+            <p data-height="300" data-theme-id="dark" data-slug-hash="PaRYeE" data-default-tab="js" data-user="Serghi0" data-embed-version="2" data-pen-title="Arduino 11B" class="codepen">See the Pen <a href="https://codepen.io/Serghi0/pen/PaRYeE/">Arduino 11B</a> by Sergh (<a href="https://codepen.io/Serghi0">@Serghi0</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+          </div>
+        <div class="workshopVideo">
+        <video controls>
+             <source src="Images/IMG_6785.MOV"  type="video/mp4">
+             Your browser does not support the video tag.
+          </video>        
+        </div>
+        <div class="workshopDescription">
+          <p>
+            For this assignment I had to control the servo with inputs. I had to use two buttons to control the servo. One button moves the servo clockwise while the other button moves the servo counter-clockwise. To accomplish this, a code that was given as a starting point had been expanded. In this code the servo can never move out of the 0-160 range. The servo is able to move from 0 to 160 and back and any value between those two values.
+          </p>
+          <p>
+            The circuit was built the way it was shown in the handout. The breadboard was connected to the 5V pin and the GND pin of the arduino.  The servo was connected to the pin number 9 of the Arduino and the 5V pin and the GND pin via the breadboard.  The buttons were connected to the Arduino pins 3 and 2 respectively. The resistors used for the buttons were 10k&#8486. 
+          </p>
+        </div>
+      </div>
+      </section>    
+
+      <section class="page10 pages">
+        <div class="page_container">
+          <h1 class="title">Assignment 12B</h1>
+          <div class="workshopCode">
+            <p data-height="300" data-theme-id="dark" data-slug-hash="eKMObO" data-default-tab="js" data-user="Serghi0" data-embed-version="2" data-pen-title="Arduino 12B" class="codepen">See the Pen <a href="https://codepen.io/Serghi0/pen/eKMObO/">Arduino 12B</a> by Sergh (<a href="https://codepen.io/Serghi0">@Serghi0</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+          </div>
+        <div class="workshopVideo">
+        <video controls>
+             <source src="Images/IMG_6833.MOV"  type="video/mp4">
+             Your browser does not support the video tag.
+          </video> 
+        </div>
+        <div class="workshopDescription">
+          <p>
+            The circuit consists of a Piezo speaker, a 220&#8486 resistor and four jump wires. Due to the speaker having a polarity indicated by the + sign next to one of the lugs, the + will have to go towards the Arduino’s pin 8. The resistor has no polarity, so the orientation doesn’t matter there.
+          </p> 
+          <p>
+            To test the speaker, the function tone() is needed. This function makes the tone. It consists of the three parameters with different responsibilities. The first parameter states which pin the speaker is connected to. The second parameter determines the frequency of the tone (in hertz). The final parameter states the duration of the tone (in milliseconds). The last parameter is optional.
+          </p>
+            For this assignment I had to create a creative melody by expanding on the code given beforehand. To accomplish this, the diagram was used to choose the frequencies. I tried to make the Star Wars Imperial March theme. I failed but the melody is still nice to hear.
+          </p>
+        </div>
+      </div>
+      </section>
+
+      <section class="page11 pages">
+        <div class="page_container">
+          <h1 class="title">Assignment 13E</h1>          
+          <div class="workshopCode">
+            <p data-height="300" data-theme-id="dark" data-slug-hash="MXQMeY" data-default-tab="js" data-user="Serghi0" data-embed-version="2" data-pen-title="MXQMeY" class="codepen">See the Pen <a href="https://codepen.io/Serghi0/pen/MXQMeY/">MXQMeY</a> by Sergh (<a href="https://codepen.io/Serghi0">@Serghi0</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+          </div>
+        <div class="workshopVideo">
+         <video controls>
+           <source src="Images/IMG_7178.MOV"  type="video/mp4">
+           Your browser does not support the video tag.
+        </video>          
+        </div>
+        <div class="workshopDescription">
+          <h2>Description</h2>
+          <p>
+            For this assignment I had to make an electronic spirit level (waterpas in Dutch). I needed to use an Inertial Measurement Unit, a combination of an accelerometer and a gyroscope. Thus, it measures the G-forces in three directions and measures the rotation giving you six values. It gives you six degrees of freedom (DOF). First, I had to calibrate the sensor to get precise values. Then I had to visualize the movement of the sensor.
+          </p> 
+          <p>
+            For this assignment I had to change the Arduino code I received in a previous assignment so that a tone sounds as soon as the accelerometer is (almost) level. To accomplish this, I had to use the Pitch and the Roll. I used a margin of -2 to 2 degrees because if I had chosen the value 0 for the Pitch and Roll, it would hardly be measurable. In the code you can see that I made a function called checkAccelerometer() to accomplish this.
+          </p>
+        </div>
+      </div>
+      </section>
+
+    </div>
+
+
+  </div>
+
+
+ 
+</body>
+</html>

@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+html {
+      height: 100%;
+    }
+    body {
+      background: #E2E4E7;
+      padding: 0;
+      text-align: left;
+      font-family: 'Open Sans', sans-serif;
+      position: relative;
+      margin: 0;
+      height: 100%;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    .wrapper {
+    	height: 100% !important;
+    	height: 100%;
+    	margin: 0 auto; 
+    	/*overflow: hidden;*/
+    }
+    
+    
+    a {
+      font-family: 'Open Sans', sans-serif;
+      text-decoration: none;
+      color: rgba(255, 255, 255, 1.0);
+    }
+    
+    
+    h1, h2 {
+      width: 100%;
+      /*float: left;*/
+    }
+    
+    h1 {
+      font-family: 'Roboto', sans-serif;
+      margin-top: 0;
+      margin-bottom: 10px;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+      /*text-align: left;*/
+      padding: 0;
+      font-size: 70px;
+      color: white;
+      text-style:bold;
+    }
+  
+    h2 {
+      color: rgba(255, 255, 255, 1.0);
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      text-align: left;
+      width: 450px;
+      line-height: 170%;
+    }
+    
+    h3 {
+	  color: rgba(255, 255, 255, 0.8);
+      font-weight: 100;
+      margin-top: 10;
+      margin-bottom: -10px;
+      font-size: 14px; 
+	  line-height: 160%;	    
+    }
+    
+    .main {
+      /*float: left;*/
+      width: 100%;
+    }
+    
+/*   .clear {
+      width: auto;
+    }*/
+            
+    header {
+      position: relative;
+      z-index: 10;
+    }
+    .main section .page_container {
+      position: relative;
+      top: 10%;
+      left: 2%;
+
+      z-index: 3;
+    }
+
+    .processText{
+      /*right: 5%; */
+      max-width: 100%;
+    text-align: justify;
+    text-justify: inter-word;           
+    }
+    .main section  {
+      /*overflow: hidden;*/
+           
+    }
+    
+    .links {
+		top: 30px;
+	clear: both;
+	float:left;
+	shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+    
+    a {
+	display: inline;
+	margin-right:20px;
+
+}
+    
+
+
+  .pages {
+    background: url() no-repeat center;
+    background-size:cover; 
+  }
+
+  .pages .page_container {
+    /*overflow: hidden;*/
+  }
+
+
+
+
+/* Responsive */
+
+body.disabled-onepage-scroll { -webkit-overflow-scrolling:touch; }
+        
+ 
+    body.disabled-onepage-scroll .onepage-wrapper  section {
+      min-height: 100%;
+      height: auto;
+    }
+    
+    body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .page_container  {
+      padding: 0px;
+      margin-top: 20px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    
+    body.disabled-onepage-scroll  section .page_container h1{
+      text-align: left;
+      font-size: 30px;
+    }
+    
+    body.disabled-onepage-scroll  section .page_container h3{
+      display:none;
+    }
+    
+    
+    body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns{
+      text-align: left;
+	  line-height: 150%;
+      width: 60%;
+      font-size: 10px;
+      font-weight: 100;
+      
+    }
+    
+    
+    body.disabled-onepage-scroll .main .page_container {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      right: 0;
+    }
+    
+    body.disabled-onepage-scroll .main section.page2 {
+	top: -100px;
+	margin-top: -20px;
+}
+        body.disabled-onepage-scroll .main section.page3 {
+	top: -100px;
+	margin-top: -20px;
+}
+    body.disabled-onepage-scroll .main section.page4 {
+	top: -100px;
+	margin-top: -20px;
+	background-position: -200px;
+}
+    body.disabled-onepage-scroll .main section.page5 {
+	top: -100px;
+	margin-top: -20px;
+}
+    body.disabled-onepage-scroll .main section.page6 {
+	top: -100px;
+	margin-top: -20px;
+}
+    body.disabled-onepage-scroll .main section.page7 {
+	top: -100px;
+	margin-top: -20px;
+}
+
+    
+    body.disabled-onepage-scroll .footer {
+	   display: none;
+    }
+    
+    body.disabled-onepage-scroll .arrowhide {
+	   display: none;
+    }
+    
+   
+ 

@@ -1,0 +1,98 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 10px;
+
+	
+	grid-template-areas:
+	"nav"
+	"wrapper";	
+}
+
+.topnav{
+	grid-area:nav;
+}
+.wrapper{
+	z-index:1;
+	grid-area:wrapper;
+}
+
+.page_container1{
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 3fr 1fr 2fr;
+	grid-column-gap: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+	
+	grid-template-areas:
+	"mainCover mainCover"
+	"mainTitle mainTitle"
+	"mainDescription mainDescription";	
+}
+
+.mainCover{
+	grid-area:mainCover;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+.mainCover img{
+	width: auto; height: 300px;
+}
+
+.mainTitle{
+	grid-area:mainTitle;
+}
+
+.mainDescription{
+	grid-area: mainDescription;
+	width: 95%;
+}
+
+.page_container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 3fr 2fr;
+	grid-column-gap: 25px;
+
+	
+	grid-template-areas:
+	"title title"
+	"workshopCode workshopVideo"
+	"workshopDescription workshopDescription";
+
+}
+
+.title{
+	grid-area:title;
+}
+
+.workshopVideo{
+	grid-area:workshopVideo;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+
+}
+
+.workshopCode{
+	grid-area:workshopCode;
+
+}
+
+.workshopDescription{
+	grid-area: workshopDescription;
+	width:88%;
+}
+.workshopCode img{ width: auto; height: 300px; }
+.workshopVideo img{ width: auto; height: 300px; }
+.workshopVideo video{ width: auto; height: 300px; }
+
