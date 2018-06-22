@@ -7,7 +7,7 @@
   <script type="text/javascript" src="Javascript/jquery.onepage-scroll.js"></script>
   <script type="text/javascript" src="Javascript/navigation.js"></script>  
   <link rel="stylesheet" type="text/css" href="Styles/desktop.css" />
-  <link rel="stylesheet" type="text/css" href="Styles/layout_workshops.css" />  
+  <link rel="stylesheet" type="text/css" href="Styles/assignmentsLayout.css" />  
   <link href='Styles/onepage-scroll.css' rel='stylesheet' type='text/css'>
   <link href='Styles/Navigation.css' rel='stylesheet' type='text/css'>  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> 
@@ -28,127 +28,119 @@
 	</script>
 </head>
 <body>
-<div class="topnav" id="myTopnav">
-  <a href="index.html" >Home</a>
-  <div class="dropdown">
-    <button class="dropbtn">Topic: Exertion Games 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Assignments</a>
-      <a href="#">Research</a>
-      <a href="#">Reflect</a>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" >Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Topic: Exertion Interfaces 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="ExertionInteractionAssignments.html">Assignments</a>
+        <a href="ExertionInteractionResearch.html">Research</a>
+        <a href="ExertionInteractionReflection.html">Reflect</a>
+      </div>
     </div>
+    <div class="dropdown">
+      <button class="dropbtn">Topic: AR & VR 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="VRARAssignments.html">Assignments</a>
+        <a href="VRARResearch.html">Research</a>
+        <a href="VRARReflection.html">Reflect</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Topic: Wearables 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="WearablesAssignments.html">Assignments</a>
+        <a href="WearablesResearch.html">Research</a>
+        <a href="WearablesReflection.html">Reflect</a>
+      </div>
+    </div>       
+    <div class="dropdown">
+      <button class="dropbtn">Topic: Artificial Creatures 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="ArtificialCreaturesAssignment.html">Assignments</a>
+        <a href="ArtificialCreaturesResearch.html">Research</a>
+        <a href="ArtificialCreaturesReflection.html">Reflect</a>
+      </div>
+    </div>
+    <a href="Workshop_processing.html" >Workshop: Computer Vision</a>
+    <a href="Workshop_unityMadmapper.html" >Workshop: Unity/ Projection mapping</a>
+    <a href="Workshop_arduino.html" >Workshop: Arduino</a>
+    <div class="dropdown">
+      <button class="dropbtn">Excursion 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Excursion.html#2">Assignments</a>
+        <a href="Excursion.html#3">Reflect</a>
+      </div>
+    </div>       
+    <div class="dropdown">
+      <button class="dropbtn">Lab weeks 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Lab_weeks_process.html">Process</a>
+        <a href="Lab_weeks_product.html">Product</a>
+        <a href="Lab_weeks_reflection.html">Reflect</a>
+      </div>
+    </div>     
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
-  <div class="dropdown">
-    <button class="dropbtn">Topic: AR & VR 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Assignments</a>
-      <a href="#">Research</a>
-      <a href="#">Reflect</a>
-    </div>
-  </div>
-  <div class="dropdown">
-    <button class="dropbtn">Topic: Wearables 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Assignments</a>
-      <a href="#">Research</a>
-      <a href="#">Reflect</a>
-    </div>
-  </div>       
-  <div class="dropdown">
-    <button class="dropbtn">Topic: Artificial Creatures 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Assignments</a>
-      <a href="#">Research</a>
-      <a href="#">Reflect</a>
-    </div>
-  </div>
-  <a href="Workshop_processing.html" >Workshop: Computer Vision</a>
-  <a href="#" >Workshop: Unity/ Projection mapping</a>
-  <a href="Workshop_arduino.html" >Workshop: Arduino</a>
-  <div class="dropdown">
-    <button class="dropbtn">Excursion 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Assignments</a>
-      <a href="#">Reflect</a>
-    </div>
-  </div>       
-  <div class="dropdown">
-    <button class="dropbtn">Lab weeks 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="Lab_weeks_process.html">Process</a>
-      <a href="#">Product</a>
-      <a href="#">Reflect</a>
-    </div>
-  </div>     
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
+
 
   <div class="wrapper">
 	  <div class="main">
 	    
       <section class="page1 pages">
-        <div class="page_container1">
-          <div class="mainCover">
-            <img src="Images/Unity_logo.png" alt="Unity">
-            <img src="Images/Madmapper_Scaled.png" alt="Madmapper">            
+        <div class="content">
+          <div class="Title">
+            <h1>Exertion Interfaces Research</h1>
           </div>
-          <h1 class="mainTitle">Workshop: Unity/ Projection mapping</h1>
-          <div class="mainDescription">  
-            <p>I had to play around with Unity to make a game which has VR elements to it. I also had to use madmapper to manipulate projections. On this page you'll find screenshots of the process and a video for the assignments I had to put on the website. 
+          <div class="Image">
+            <img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/10388027/mario_tennis_aces_swing_mode_640.gif" alt="Mario Tennis Aces" title="Image source: Nintendo">
+          </div>
+          <div class="Text">
+            <p>
+              The exertion game is called Mario Tennis Aces for the Nintendo Switch. There is a feature in the game where you can play tennis by just swinging the Joy Cons. The Joy Cons are the controls on the side of the Switch. It has the capability to use motion controls and that is what it uses to make the player swing the controller like a tennis racket. 
             </p>
+            <p>
+              You can either play the game in single player mode or as multiplayer mode. You play the game cooperatively in a competitive way by playing in a duo vs another duo or competitively against each other. 
+            </p>
+            <p><a href="http://mariotennis.nintendo.com/aces/">Link to the official site.</a></p>
           </div>
+
         </div>
       </section>
       
       <section class="page2 pages">
-        <div class="page_container">
-          <h1 class="title">Unity assignment</h1>
-          <div class="workshopCode">
-            <img src="Images/unityPhoto.png" alt="unity proces photo">
+        <div class="content">
+          <div class="Title">
+            <h1>Exertion Interfaces Research</h1>
           </div>
-        <div class="workshopVideo">
-        <video controls>
-             <source src="Images/unityvideo.MOV"  type="video/mp4">
-             Your browser does not support the video tag.
-          </video>
-        </div>
-        <div class="workshopDescription">
-          <p>
-            For this assignment I had to make a interactive game with the help of unity. The interactive element is that every time i walk towards the zombie, it lights up in flames. It only lights up in a small flame though. It was made so that the zombie falls over when it tries to attack the damsel in distress. In the photo you can see the unity develop screen and in the video you can see a demo of the game.
-          </p>
-        </div>
-      </div>
-      </section>
-      
-      <section class="page3 pages">
-        <div class="page_container">
-          <h1 class="title">Madmapper assignment</h1>
-          <div class="workshopCode">
-            <img src="Images/Madmapper.png" alt="Madmapper">
+          <div class="Image">
+            <img src="https://vignette.wikia.nocookie.net/voez/images/e/e5/Noteline1.gif/revision/latest?cb=20160619163315" alt="VOEZ" title="Image source: Nintendo">
+          </div>
+          <div class="Text">
+            <p>
+              The exertion game is called VOEZ for the Nintendo Switch or your mobile phone. The challenge of the game is to use gestures on the screen to match the music. You have different gestures to match the song. There are also different difficulties so that it doesn’t get boring. There are more than 100+ songs to indulge.  
+            </p>
+            <p>
+              The game is primarily single player and it is a competitive game where you have to try and get the highest score possible and then try to beat that high score. 
+            </p>
+            <p><a href="https://www.nintendo.com/games/detail/voez-switch">Link to the official site.</a></p>
+          </div>
 
-          </div>
-        <div class="workshopVideo">
-      
         </div>
-        <div class="workshopDescription">
-          <p>
-            For this assignment I had to project an animation via madmapper and manipulate the projection. In the photo you can see how I achieved this in the madmapper menu.
-          </p>
-        </div>
-      </div>
       </section>
+      
 
 
       
