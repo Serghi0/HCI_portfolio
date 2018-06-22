@@ -1,0 +1,38 @@
+.content{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 2fr 1fr 1fr;
+	grid-row-gap: 10px;
+	grid-column-gap:10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+
+	
+	grid-template-areas:
+	"biopic biography"
+	"expectations studygoals"
+	"Disclaimer Disclaimer";	
+}
+
+.biography{
+	grid-area: biography;
+}
+
+.bioPic{
+	grid-area: biopic;
+}
+
+.bioPic img{width: auto; height: 300px;}
+
+.expectations{
+	grid-area: expectations;
+}
+
+.studyGoals{
+	grid-area:studygoals;
+}
+
+.Disclaimer{
+	grid-area:Disclaimer;
+}
