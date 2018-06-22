@@ -1,0 +1,37 @@
+
+
+.content{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr 3fr;
+	grid-row-gap: 10px;
+	grid-column-gap:10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+
+	
+	grid-template-areas:
+	"Title Title"
+	"Text Image";	
+}
+
+.Title{
+	grid-area: Title;
+}
+
+.Image{
+	grid-area: Image;
+	display:flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+.Image img{width: auto; height: 300px;}
+
+.social img{width: auto; height: 200px;}
+
+.Text{
+	grid-area: Text;
+}
+
